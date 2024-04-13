@@ -1,0 +1,124 @@
+.home {
+  display: flex;
+  height: 40pc;
+}
+.home1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 1pc; */
+  margin-left: 35pc;
+  align-items: center;
+}
+.home1 {
+  display: flex;
+  justify-content: start;
+  color: white;
+  margin-left: 5pc;
+  width: 5pc;
+  height: 39pc;
+  background: rgb(23, 37, 47);
+  border-radius: 10px;
+}
+.umbrella {
+  position: absolute;
+  color: aqua;
+  font-size: 2.3pc;
+  margin-top: 40px;
+  /* background-color: grey; */
+  /* background: grey; */
+  border-radius: 10px;
+  flex-direction: column;
+}
+.weather {
+  color: white;
+  font-size: 2.3pc;
+  margin-top: 8pc;
+  margin-left: 10px;
+}
+.menu {
+  color: white;
+  font-size: 2.3pc;
+  margin-top: 25px;
+  margin-left: -10px;
+}
+.map {
+  color: white;
+  font-size: 2.3pc;
+  margin-top: 45px;
+  margin-left: -10px;
+}
+.setting {
+  color: white;
+  font-size: 2.3pc;
+  margin-top: 40px;
+  margin-left: 6px;
+}
+
+.home1 h4 {
+  font-size: 15px;
+}
+
+.center {
+  position: absolute;
+  margin-left: 12pc;
+  margin-top: 15pc;
+  width: 50pc;
+  height: 11pc;
+  border-radius: 10px;
+  background: rgb(23, 37, 47);
+}
+
+.footer {
+  position: absolute;
+  margin-left: 12pc;
+  margin-top: 26.9pc;
+  width: 50pc;
+  height: 12pc;
+  border-radius: 10px;
+  background: rgb(23, 37, 47);
+}
+
+.right {
+  position: absolute;
+  margin-left: 64pc;
+  width: 25pc;
+  height: 39pc;
+  border-radius: 10px;
+  background: rgb(23, 37, 47);
+  /* background: linear-gradiet(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgb(255, 255, 255, 0)
+  );
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 3px solid rgba(224, 244, 152, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+}
+.weather1 {
+  display: flex;
+  margin-left: 2pc;
+  width: 49.5pc;
+  height: 14pc;
+  /* background-color: rgb(17, 45, 206); */
+  background: linear-gradiet(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgb(255, 255, 255, 0)
+  );
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 3px solid rgba(224, 244, 152, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.weather1 img {
+  margin-left: 6pc;
+}
+.weather1 h1 {
+  position: absolute;
+  margin-left: 3pc;
+  margin-top: 10pc;
+}

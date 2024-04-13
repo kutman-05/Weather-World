@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: url("https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2022/10/CLI371.weather.double_rainbow_cammie_czuchnicki-920x614.jpg")
+    no-repeat center/cover;
+  height: 33pc;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  height: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20pc;
+  color: rgb(17, 17, 17);
+}
+#header {
+  position: relative;
+  /* background: rgb(13, 13, 13); */
+  /* opacity: 20px; */
+  /* width: 1399px; */
+  padding: 2pc;
+}
+.search {
+  position: absolute;
+  margin-top: -5pc;
+  margin-left: 5pc;
+  height: 30px;
+  display: flex;
+  transition: 2s;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(23, 37, 47);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
+}
+/* .search input:hover {
+  width: 390px;
+  transition: 0.8s;
+} */
+.search input {
+  cursor: pointer;
+  /* width: 100px; */
+  outline: none;
+  border: none;
   color: white;
+  font-size: 15px;
+  /* height: 2.5pc; */
+  font-weight: 500;
+  /* transition: 2s; */
+  background: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+.search button {
+  position: absolute;
+  color: rgb(101, 98, 98);
+  border-radius: 0 10px 10px 0;
+  width: 45px;
+  background-color: rgb(23, 37, 47);
+  margin-left: -2pc;
+  margin-top: -15px;
+  font-size: 28px;
+  /* transition: 2s; */
+  border: none;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather22 {
+  position: absolute;
+  font-size: 30px;
+}
+.weather22 h1{
+  
 }
